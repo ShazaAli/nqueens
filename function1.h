@@ -1,5 +1,6 @@
-#include <iostream>
+#include<iostream>
+void print(int n);
+bool isSafe(int col, int row, int n);
+bool solve(int n, int row);
 
-int isSafe(char mat[][N], int r, int c);
-void printSolution(char mat[][N]);
-void nQueen(char mat[][N], int r);
+
